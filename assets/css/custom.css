@@ -1098,6 +1098,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 :root .ad-appointment-form .gform_fields > * { margin-block-start: 0 !important; }
+:root .ad-appointment-form .gform_footer { margin: 0 !important; padding-top: 8px !important; }
+:root .ad-appointment-form .gform_wrapper > * { margin-block-start: 0 !important; }
 
 .ad-appointment-form .gfield {
   padding: 0 !important;
