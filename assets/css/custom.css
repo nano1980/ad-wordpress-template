@@ -1103,7 +1103,8 @@ img { max-width: 100%; height: auto; display: block; }
 :root .ad-appointment-form .gform_footer { margin: 0 !important; padding: 8px 0 0 !important; height: auto !important; min-height: 0 !important; }
 :root .ad-appointment-form .gform_wrapper > * { margin-block-start: 0 !important; }
 .ad-appointment-form .gform_footer * { margin-block-start: 0 !important; }
-.ad-appointment-form .gform_footer > p { display: none !important; }
+.ad-appointment-form .gform_footer > p,
+.ad-appointment-form .gform_footer br { display: none !important; height: 0 !important; }
 .ad-appointment-form { overflow: hidden; }
 
 .ad-appointment-form .gfield {
