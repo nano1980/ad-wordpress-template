@@ -17,7 +17,7 @@
 
       <!-- wp:image {"sizeSlug":"large"} -->
       <figure class="wp-block-image size-large">
-        <img src="https://placehold.co/500x560/EFF8F6/0FA89A?text=Klinik" alt="Aragondental klinik" />
+        <img src="https://placehold.co/500x560/e0e0e0/555555?text=Klinik" alt="Aragondental klinik" />
       </figure>
       <!-- /wp:image -->
 

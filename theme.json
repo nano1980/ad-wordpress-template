@@ -5,11 +5,11 @@
     "appearanceTools": true,
     "color": {
       "palette": [
-        { "slug": "primary",      "color": "#0FA89A", "name": "Primary" },
-        { "slug": "primary-dark", "color": "#0C7A70", "name": "Primary Dark" },
-        { "slug": "primary-light","color": "#E6F6F5", "name": "Primary Light" },
-        { "slug": "background",   "color": "#EFF8F6", "name": "Background" },
-        { "slug": "dark-section", "color": "#1A2B2A", "name": "Dark Section" },
+        { "slug": "primary",      "color": "#91a600", "name": "Primary" },
+        { "slug": "primary-dark", "color": "#6e7e00", "name": "Primary Dark" },
+        { "slug": "primary-light","color": "#f2f6d0", "name": "Primary Light" },
+        { "slug": "background",   "color": "#d5e3d6", "name": "Background" },
+        { "slug": "dark-section", "color": "#1a2a1c", "name": "Dark Section" },
         { "slug": "white",        "color": "#ffffff", "name": "White" },
         { "slug": "dark",         "color": "#111827", "name": "Dark" },
         { "slug": "gray",         "color": "#6B7280", "name": "Gray" },

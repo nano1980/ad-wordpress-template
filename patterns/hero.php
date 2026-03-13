@@ -85,7 +85,7 @@
 
       <!-- wp:image {"sizeSlug":"large"} -->
       <figure class="wp-block-image size-large">
-        <img src="https://placehold.co/520x580/EFF8F6/0FA89A?text=Foto" alt="Tandläkare vid Aragondental" />
+        <img src="https://placehold.co/520x580/e0e0e0/555555?text=Foto" alt="Tandläkare vid Aragondental" />
       </figure>
       <!-- /wp:image -->
 

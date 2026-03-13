@@ -38,7 +38,7 @@
         <div class="wp-block-group ad-testimonial-author">
           <!-- wp:image {"width":48,"height":48,"sizeSlug":"thumbnail","className":"ad-author-img"} -->
           <figure class="wp-block-image size-thumbnail is-resized ad-author-img">
-            <img src="https://placehold.co/48x48/EFF8F6/0FA89A?text=MJ" alt="Maria Johansson" width="48" height="48" />
+            <img src="https://placehold.co/48x48/e0e0e0/555555?text=MJ" alt="Maria Johansson" width="48" height="48" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph {"className":"ad-testimonial-name"} -->
@@ -64,7 +64,7 @@
         <div class="wp-block-group ad-testimonial-author">
           <!-- wp:image {"width":48,"height":48,"sizeSlug":"thumbnail","className":"ad-author-img"} -->
           <figure class="wp-block-image size-thumbnail is-resized ad-author-img">
-            <img src="https://placehold.co/48x48/EFF8F6/0FA89A?text=PL" alt="Peter Lindqvist" width="48" height="48" />
+            <img src="https://placehold.co/48x48/e0e0e0/555555?text=PL" alt="Peter Lindqvist" width="48" height="48" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph {"className":"ad-testimonial-name"} -->
@@ -90,7 +90,7 @@
         <div class="wp-block-group ad-testimonial-author">
           <!-- wp:image {"width":48,"height":48,"sizeSlug":"thumbnail","className":"ad-author-img"} -->
           <figure class="wp-block-image size-thumbnail is-resized ad-author-img">
-            <img src="https://placehold.co/48x48/EFF8F6/0FA89A?text=SA" alt="Sara Andersson" width="48" height="48" />
+            <img src="https://placehold.co/48x48/e0e0e0/555555?text=SA" alt="Sara Andersson" width="48" height="48" />
           </figure>
           <!-- /wp:image -->
           <!-- wp:paragraph {"className":"ad-testimonial-name"} -->

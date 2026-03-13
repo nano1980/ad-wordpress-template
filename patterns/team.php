@@ -33,7 +33,7 @@
       <div class="wp-block-group ad-team-card ad-reveal">
         <!-- wp:image {"sizeSlug":"large"} -->
         <figure class="wp-block-image size-large">
-          <img src="https://placehold.co/400x280/EFF8F6/0FA89A?text=Dr+Anna+Berg" alt="Dr Anna Berg" />
+          <img src="https://placehold.co/400x280/e0e0e0/555555?text=Dr+Anna+Berg" alt="Dr Anna Berg" />
         </figure>
         <!-- /wp:image -->
         <!-- wp:group {"className":"ad-team-info"} -->
@@ -63,7 +63,7 @@
       <div class="wp-block-group ad-team-card ad-reveal">
         <!-- wp:image {"sizeSlug":"large"} -->
         <figure class="wp-block-image size-large">
-          <img src="https://placehold.co/400x280/EFF8F6/0FA89A?text=Dr+Erik+Lund" alt="Dr Erik Lund" />
+          <img src="https://placehold.co/400x280/e0e0e0/555555?text=Dr+Erik+Lund" alt="Dr Erik Lund" />
         </figure>
         <!-- /wp:image -->
         <!-- wp:group {"className":"ad-team-info"} -->
@@ -93,7 +93,7 @@
       <div class="wp-block-group ad-team-card ad-reveal">
         <!-- wp:image {"sizeSlug":"large"} -->
         <figure class="wp-block-image size-large">
-          <img src="https://placehold.co/400x280/EFF8F6/0FA89A?text=Dr+Sofia+Palm" alt="Dr Sofia Palm" />
+          <img src="https://placehold.co/400x280/e0e0e0/555555?text=Dr+Sofia+Palm" alt="Dr Sofia Palm" />
         </figure>
         <!-- /wp:image -->
         <!-- wp:group {"className":"ad-team-info"} -->
