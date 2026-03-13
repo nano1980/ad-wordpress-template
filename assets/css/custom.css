@@ -1121,10 +1121,10 @@ img { max-width: 100%; height: auto; display: block; }
 .ad-appointment-form textarea {
   width: 100% !important;
   padding: 13px 16px !important;
-  border: 1.5px solid rgba(0,0,0,0.3) !important;
+  border: 1px solid rgba(255,255,255,0.35) !important;
   border-radius: var(--radius-sm) !important;
-  background: transparent !important;
-  color: var(--dark) !important;
+  background: rgba(0,0,0,0.25) !important;
+  color: var(--white) !important;
   font-family: var(--font-body) !important;
   font-size: 0.9rem !important;
   transition: border-color var(--transition) !important;
@@ -1132,9 +1132,9 @@ img { max-width: 100%; height: auto; display: block; }
   appearance: none;
 }
 
-.ad-appointment-form input::placeholder { color: rgba(0,0,0,0.4) !important; }
-.ad-appointment-form select { color: var(--dark) !important; }
-.ad-appointment-form select option { background: var(--white); color: var(--dark); }
+.ad-appointment-form input::placeholder { color: rgba(255,255,255,0.55) !important; }
+.ad-appointment-form select { color: var(--white) !important; }
+.ad-appointment-form select option { background: #1a2a1c; color: var(--white); }
 
 .ad-appointment-form input:focus,
 .ad-appointment-form select:focus,
