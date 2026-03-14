@@ -140,7 +140,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .wp-block-button__link:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(15, 168, 154, 0.35);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link {
@@ -904,6 +904,7 @@ img { max-width: 100%; height: auto; display: block; }
   margin-top: 12px;
 }
 
+:root .ad-team-info.is-layout-flow > * { margin-block-start: 6px !important; }
 :root .ad-team-social > * { margin-block-start: 0 !important; }
 
 /* Knapp-wrapper: ta bort default padding */
@@ -1621,4 +1622,111 @@ img { max-width: 100%; height: auto; display: block; }
   .ad-hero-content h1 { font-size: 2rem; }
   .ad-hero-trust      { flex-wrap: wrap; justify-content: center; }
   .ad-trust-item      { padding: 8px 16px; }
+}
+
+/* ===========================
+   VARFÖR VÄLJA OSS
+   =========================== */
+.ad-whychooseus { margin-top: 0 !important; background: var(--white); }
+
+.ad-whychooseus-inner {
+  display: grid !important;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 64px;
+  align-items: center;
+}
+:root .ad-whychooseus-inner > * { margin-block-start: 0 !important; }
+
+/* Foto */
+.ad-whychooseus-photo img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
+:root .ad-whychooseus-media > * { margin-block-start: 0 !important; }
+
+/* Innehåll */
+:root .ad-whychooseus-content > * { margin-block-start: 0 !important; }
+.ad-whychooseus-content .wp-block-heading { margin-bottom: 12px !important; }
+.ad-whychooseus-content > .wp-block-paragraph { color: var(--gray); margin-bottom: 32px !important; }
+
+/* Feature-grid 2 kolumner */
+.ad-whychooseus-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px !important;
+  margin-top: 32px !important;
+}
+:root .ad-whychooseus-grid > * { margin-block-start: 0 !important; }
+
+/* Feature-kort */
+.ad-whychooseus-card {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 20px !important;
+  position: relative;
+  counter-increment: feature-counter;
+}
+.ad-whychooseus-grid { counter-reset: feature-counter; }
+
+.ad-whychooseus-card::before {
+  content: "0" counter(feature-counter);
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 8px;
+  line-height: 1;
+}
+:root .ad-whychooseus-card > * { margin-block-start: 0 !important; }
+.ad-whychooseus-card .wp-block-heading {
+  font-size: 0.95rem !important;
+  font-weight: 600;
+  margin-bottom: 6px !important;
+  color: var(--dark);
+}
+.ad-whychooseus-card .wp-block-paragraph {
+  font-size: 0.85rem !important;
+  color: var(--gray);
+  margin: 0 !important;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .ad-whychooseus-inner { grid-template-columns: 1fr; }
+  .ad-whychooseus-media { display: none; }
+}
+@media (max-width: 600px) {
+  .ad-whychooseus-grid { grid-template-columns: 1fr; }
+}
+
+/* ===========================
+   VÅRA PARTNERS
+   =========================== */
+.ad-partners { margin-top: 0 !important; background: var(--white); }
+
+.ad-partners-logos {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px 60px;
+  margin-top: 48px !important;
+}
+:root .ad-partners-logos > * { margin-block-start: 0 !important; }
+
+.ad-partner-logo {
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.ad-partner-logo img {
+  height: 96px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
